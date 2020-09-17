@@ -1,0 +1,20 @@
+package com.edu118.common.service.commodity;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.edu118.common.utils.PageUtils;
+import com.edu118.common.entity.commodity.SpuCommentEntity;
+
+import java.util.Map;
+
+/**
+ * 商品评价
+ *
+ * @author muyu
+ * @email 1235767@qq.com
+ * @date 2020-09-16 21:58:42
+ */
+public interface SpuCommentService extends IService<SpuCommentEntity> {
+
+    PageUtils queryPage(Map<String, Object> params);
+}
+

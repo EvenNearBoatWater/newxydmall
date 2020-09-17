@@ -8,6 +8,12 @@
     <name>xydmall-sale</name>
     <description>销售服务</description>
 
+    <parent>
+        <groupId>com.edu118.xydmall</groupId>
+        <artifactId>xydmall</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
     <!--<properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
